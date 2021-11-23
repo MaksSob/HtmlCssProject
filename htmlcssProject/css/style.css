@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(193, 199, 204);
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+
+h1 {
+    color: rgb(195, 221, 80);
+    margin: 0.5rem 0;
+}
+
+h2, h3, h4 {
+    color: rgb(38, 32, 136);
+    margin: 0.5rem 0;
+}
+
+header {
+    align-items: center;
+    background-color: rgb(195, 221, 80);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#logo {
+    height: 4rem;
+    margin: 0.5rem;
+}
+
+
+.hero {
+    align-items: center;
+    background-image: url('/htmlcssProject/img/sky.jpg');
+    display: flex;
+    justify-content: center;
+    background-position: bottom;
+    background-size: cover;
+    min-height: 20rem;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.content section{
+    padding: 1rem;
+}
+
+.content img {
+    border-radius: 50%;
+}
+
+.content .photoContent {
+    column-gap: 0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.content .photoContent img {
+    height: max-content;
+    max-width: 33%;
+}
+
+.content .container {
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+
+.contactText {
+    margin: 0 0.5rem;
+    min-width: 8rem;
+}
+
+.line {
+    background-color: rgb(104, 105, 102);
+    height: 0.50rem;
+    display: block;
+}
+
+footer {
+    background-color: rgb(195, 221, 80);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+navbar {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: rgb(38, 32, 136);
+    text-decoration: none;
+}
+navbar a:last-of-type {
+    margin-bottom: 1rem;
+}
+h4 {
+    margin: 0;
+    margin-bottom:0.5rem;
+}
+
+@media only screen and (min-width: 800px) {
+    header {
+        padding: 0.5rem;
+        justify-content: space-around;
+        flex-direction: row;
+        
+    }
+    
+    #logo {
+        height: 4rem;
+        margin: 1rem 0;
+    }
+
+    .content {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .content .photoContent {
+        flex-wrap: nowrap;
+    }
+
+    .content .photoContent img {
+        min-height: 150px;
+        min-width: 150px;
+    }
+
+    .contactContainer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width: auto;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+    }
+
+    .container img {
+        min-width: 100px;
+        max-width: 30%;
+    }
+
+    .contactText {
+        min-width: fit-content;
+    }    
+
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 2rem;
+    }
+}
