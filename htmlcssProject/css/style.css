@@ -11,7 +11,6 @@ p {
     margin: 0;
 }
 
-
 h1 {
     color: rgb(195, 221, 80);
     margin: 0.5rem 0;
@@ -34,7 +33,6 @@ header {
     height: 4rem;
     margin: 0.5rem;
 }
-
 
 .hero {
     align-items: center;
@@ -81,7 +79,6 @@ header {
     padding-bottom: 1rem;
 }
 
-
 .contactText {
     margin: 0 0.5rem;
     min-width: 8rem;
@@ -108,9 +105,11 @@ a {
     color: rgb(38, 32, 136);
     text-decoration: none;
 }
+
 navbar a:last-of-type {
     margin-bottom: 1rem;
 }
+
 h4 {
     margin: 0;
     margin-bottom:0.5rem;
